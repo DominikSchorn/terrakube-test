@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm install -g semantic-release@22.0.10 semantic-release-unsquash@0.2.0 conventional-changelog-conventionalcommits@8.0.0
+        run: npm install -g semantic-release@22.0.10 semantic-release-unsquash@0.2.0 conventional-changelog-conventionalcommits@7.0.2
       - name: Release
         env:
           GITHUB_TOKEN: ${{ github.token }}
