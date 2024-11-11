@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
       - name: Install dependencies
         run: npm install -g semantic-release@24.2.0 semantic-release-unsquash@0.2.0 conventional-changelog-conventionalcommits@7.0.2
       - name: Release
