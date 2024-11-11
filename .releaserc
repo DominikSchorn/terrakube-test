@@ -3,19 +3,13 @@
   "plugins": [
     ["semantic-release-unsquash", {
       "commitAnalyzerConfig": {
-        "preset": "angular",
-        "releaseRules": [
-          { type: 'feat!', release: 'major' },
-        ],
+        "preset": "conventionalcommits",
       },
     }],
     [
       "@semantic-release/commit-analyzer",
       {
-"preset": "angular",
-         releaseRules": [
-          { "type": "feat!", "release": "major" },
-        ]
+"preset": "conventionalcommits",
       }
     ],
     "@semantic-release/release-notes-generator",
