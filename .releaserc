@@ -4,8 +4,8 @@
     ["semantic-release-unsquash", {
       "commitAnalyzerConfig": {
         "preset": "angular",
-                "releaseRules": [
-          { type: '^feat!', release: 'patch' },
+        "releaseRules": [
+          { type: 'feat!', release: 'major' },
         ],
       },
     }],
@@ -14,7 +14,7 @@
       {
 "preset": "angular",
          releaseRules": [
-          { "type": "^feat!", "release": "major" },
+          { "type": "feat!", "release": "major" },
         ]
       }
     ],
